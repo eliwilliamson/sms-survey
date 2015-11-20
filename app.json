@@ -1,0 +1,33 @@
+{
+  "name": "SMS Survey",
+  "description": "This example project demonstrates how SMS surveying can be easy, clear, and human.",
+  "keywords": [
+    "twilio",
+    "node.js",
+    "mongodb",
+    "mongoose",
+    "express"
+  ],
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "API username - find your account SID at https://www.twilio.com/user/account/voice-messaging",
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "API password - find your auth token at https://www.twilio.com/user/account/voice-messaging",
+      "required": true
+    },
+    "TWILIO_NUMBER": {
+      "description": "* TWILIO_NUMBER
+A number in your Twilio account to use with this application in E.164 format (e.g. +16518675309) - view your numbers at https://www.twilio.com/user/account/phone-numbers/incoming",
+      "required": true
+    }
+  },
+  "website": "https://github.com/eliwilliamson/sms-survey",
+  "repository": "https://github.com/eliwilliamson/sms-survey",
+  "logo": "https://s3.amazonaws.com/howtodocs/twilio-logo.png",
+  "success_url": "/landing.html",
+  "addons": [
+    "mongolab"
+  ]
+}
